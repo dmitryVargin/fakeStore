@@ -1,0 +1,8 @@
+.main-wrap {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  &.black {
+    background: #242526;
+  }
+}

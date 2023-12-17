@@ -1,0 +1,17 @@
+.wrap {
+  flex-grow: 3;
+  padding-top: 20px;
+  position: relative;
+  &.black {
+    background: #242526;
+    color:white;
+  }
+}
+.inner-wrap {
+  margin: 0 auto;
+  max-width: 1200px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px 20px;
+  gap: 20px ;
+}

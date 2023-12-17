@@ -1,0 +1,22 @@
+.wrap {
+
+  &.black {
+    color: white;
+    background: #242526;
+  }
+
+  .breadcrumb-tip {
+    z-index: 999;
+    background: white;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 18px;
+
+    &.black {
+      color: white;
+      background: #242526;
+    }
+  }
+}
+.breadcrumb-choose {
+  cursor: pointer;
+}
+
